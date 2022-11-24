@@ -654,9 +654,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - prefab: {fileID: 7282514551511797149, guid: c4e91dc7f6d4ea940934a21d483f92c3, type: 3}
-    spawnChance: 0.2
+    spawnChance: 0
   - prefab: {fileID: 1397911258521389238, guid: c1ece375f3824ed44ba98a92a2b802b9, type: 3}
-    spawnChance: 0.2
+    spawnChance: 0
   minSpawnRate: 2
   maxSpawnRate: 2
 --- !u!4 &1220236265
@@ -931,6 +931,7 @@ GameObject:
   - component: {fileID: 2053862299}
   - component: {fileID: 2053862302}
   - component: {fileID: 2053862303}
+  - component: {fileID: 2053862304}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1048,6 +1049,26 @@ MonoBehaviour:
   flip: {fileID: 21300000, guid: d44ce0aa134ad884190ab237d15f278a, type: 3}
   jumpForce: 15
   gravity: 19.62
+--- !u!95 &2053862304
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053862298}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e63f78b7c77237d4c97a3d211774f336, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2109173646
 GameObject:
   m_ObjectHideFlags: 0

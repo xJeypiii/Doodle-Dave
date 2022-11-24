@@ -101,6 +101,7 @@ public class GameManager : MonoBehaviour
         Vector3 startPosition = player.transform.position;
         Vector3 endPosition = other.transform.position;
         float t = 0.0f;
+        player.GetComponent<Animator>().Play("DeathAnim");
         while ( t  < duration )
         {
             t += Time.deltaTime;
