@@ -654,9 +654,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - prefab: {fileID: 7282514551511797149, guid: c4e91dc7f6d4ea940934a21d483f92c3, type: 3}
-    spawnChance: 0
+    spawnChance: 0.2
   - prefab: {fileID: 1397911258521389238, guid: c1ece375f3824ed44ba98a92a2b802b9, type: 3}
-    spawnChance: 0
+    spawnChance: 0.2
   minSpawnRate: 2
   maxSpawnRate: 2
 --- !u!4 &1220236265
