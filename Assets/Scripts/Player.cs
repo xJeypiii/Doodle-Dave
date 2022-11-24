@@ -31,17 +31,17 @@ public class Player : MonoBehaviour
     private void OnEnable()
     {
         direction = Vector3.zero;
-        if(!isAnimating) {
-            transform.eulerAngles = new Vector3(0, 0, 0);
-            Invoke(nameof(Animate), 0f);
-            isAnimating = true;
-        }
+        // if(!isAnimating) {
+        //     transform.eulerAngles = new Vector3(0, 0, 0);
+        //     Invoke(nameof(Animate), 0f);
+        //     isAnimating = true;
+        // }
     }
 
     private void OnDisable()
     {
-        CancelInvoke();
-        isAnimating = false;
+        // CancelInvoke();
+        // isAnimating = false;
     }
 
     private void Update()
@@ -54,9 +54,10 @@ public class Player : MonoBehaviour
 
             if (Input.GetButton("Jump")) {
                 direction = Vector3.up * jumpForce;
-                CancelInvoke();
-                isAnimating = false;
-                StartCoroutine(AnimateJump());
+                // CancelInvoke();
+                // isAnimating = false;
+                GetComponent<Animator>().Play("JumpAnim");
+                // StartCoroutine(AnimateJump());
             }
         }
 
