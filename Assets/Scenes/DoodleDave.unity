@@ -1036,17 +1036,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8a195f21fff4d246b84be5f8e6bf0d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprites:
-  - {fileID: 21300000, guid: 8ae9c0674d38d034188e0a4601aa6899, type: 3}
-  - {fileID: 21300000, guid: e5def25b57ac11b4bac4bcca8192f8a7, type: 3}
-  readyOne: {fileID: 21300000, guid: 42961e8b7a7a3e34780c19bb00c3fdcb, type: 3}
-  readyTwo: {fileID: 21300000, guid: 4a85f11fb42f7c04594460b8bb97b754, type: 3}
-  landingOne: {fileID: 21300000, guid: 372c853752caaeb42993480109a90781, type: 3}
-  landingTwo: {fileID: 21300000, guid: 39fcc4344f28a4e4f92388065f540a37, type: 3}
-  landingThree: {fileID: 21300000, guid: b6589bef7496fa641b9a3ce7b2ae416b, type: 3}
-  landingFour: {fileID: 21300000, guid: 8c6018116013f0b45847efd5924a708b, type: 3}
-  landingFive: {fileID: 21300000, guid: 8c6e0f420b265e240958db40f404a323, type: 3}
-  flip: {fileID: 21300000, guid: d44ce0aa134ad884190ab237d15f278a, type: 3}
   jumpForce: 15
   gravity: 19.62
 --- !u!95 &2053862304

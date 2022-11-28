@@ -61,6 +61,7 @@ public class GameManager : MonoBehaviour
 
         player.transform.localScale = new Vector3(1, 1, 1);
         player.transform.position = new Vector3(-7, 0, 0);
+        player.transform.eulerAngles = new Vector3(0, 0, 0);
 
         player.gameObject.SetActive(true);
         spawner.gameObject.SetActive(true);
